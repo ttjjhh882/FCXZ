@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- NAME -->
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Lutemon name"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Color"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnColorRed"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="RED"
+            android:textColor="@color/white"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/btnColorBlue"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0000FF"
+            android:text="BLUE"
+            android:textColor="@color/white"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/btnColorWhite"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="WHITE"
+            android:textColor="@color/black"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/btnColorGreen"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FF00"
+            android:text="GREEN"
+            android:textColor="@color/white"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/btnColorPink"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC0CB"
+            android:text="PINK"
+            android:textColor="@color/black"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/btnColorOrange"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFA500"
+            android:text="ORANGE"
+            android:textColor="@color/white"
+            android:layout_marginEnd="2dp"/>
+
+        <Button
+            android:id="@+id/btnColorBlack"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:text="BLACK"
+            android:textColor="@color/white"
+            android:layout_marginEnd="2dp"/>
+    </LinearLayout>
+</LinearLayout>

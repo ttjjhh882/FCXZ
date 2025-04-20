@@ -168,8 +168,8 @@ public class BattleFragment extends Fragment {
     private void endBattle(boolean swapPositions) {
         attacker.setWins(attacker.getWins() + 1);
         defender.setLosses(defender.getLosses() + 1);
-
-        String resultText = String.format("\n🏆 Winner：%s！\n", attacker.getName());
+        attacker.train();
+        String resultText = String.format("\n🏆 Winner：%s! %s get 1 EXP!\n", attacker.getName(),attacker.getName());
         tvBattleLog.append(resultText);
 
         btnNext.setVisibility(View.GONE);
